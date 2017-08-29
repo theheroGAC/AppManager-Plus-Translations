@@ -64,17 +64,19 @@ notmanual =		"Eliminazione effettuata manualmente",
 notfindmanual =	"Manuale non trovato",
 removemanual =	"Eliminazione Manuale",
 pressremove =	"Disinstalla",
-pressswitch =	"Sposta (ux0<->ur0)",
+switchapp =		"Scambia Apps",
 empty =			"Vuoto/Errore",
 toexplorer =	"File explorer",
+partitions =	"Partizioni",
 
 --SearchingVpks
 vpktittle =		"Installare i Vpk ",
 wait =			"Attendere prego...",
 nofinds =		"Nessun file trovato",
-reloadfull =	"Scansione completa di ux0:/ur0:",
+reloadfull =	"Scansione completa in ux0/ur0/uma0",
 moveiso2ux0 =	"Gioco sposato su ux0:pspemu/ISO",
 moveiso2ur0 =	"Gioco spostato su ur0:pspemu/ISO",
+moveiso2uma0 =	"JGioco spostato su uma0:pspemu/ISO",
 
 -------------		Callbacks		---------------------------------------------------------------------
 unsafe =		"Insicuro: ",
@@ -161,7 +163,7 @@ shutdown =		"La tua PSVita sarà spenta...",
 result =		"\nRisultato: ",
 count =			"Totale: ",
 sizeis =		"Il formato è: ",
-opensettings =	"Aprire App Mp3/Galeria/Video ?",
+opensettings =	"Aprire App Mp3/Galleria/Video ?",
 filesfolders =	"Cartelle/Archivio",
 
 }
