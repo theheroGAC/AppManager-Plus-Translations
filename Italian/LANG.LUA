@@ -76,7 +76,7 @@ nofinds =		"Nessun file trovato",
 reloadfull =	"Scansione completa in ux0/ur0/uma0",
 moveiso2ux0 =	"Gioco sposato su ux0:pspemu/ISO",
 moveiso2ur0 =	"Gioco spostato su ur0:pspemu/ISO",
-moveiso2uma0 =	"JGioco spostato su uma0:pspemu/ISO",
+moveiso2uma0 =	"Gioco spostato su uma0:pspemu/ISO",
 
 -------------		Callbacks		---------------------------------------------------------------------
 unsafe =		"Insicuro: ",
