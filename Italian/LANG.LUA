@@ -1,7 +1,7 @@
 --Texts
 strings = {
 
--------------	Explorer	----------------------------------------------
+-------------	Explorer	---------------------------------------------------------------------------------
 back =			"Indietro ",
 copyfile =		"Copia: ",
 delfile =		"Elimina: ",
@@ -19,28 +19,32 @@ rename =		"Rinomina",
 extract =		"Estrai",
 cancel =		"Cancella",
 insvpkfromdir = "Installa un Gioco",
-instheme =		"Installa un CTema",
-extractto =		"Estrai il contenuto su",
+instheme =		"Installa CTheme",
+extractto =		"Estrai il contenuto SU",
 paste =			"Incolla",
-move =			"Muovi",
+move =			"Sposta",
 size =			"Formato",
-scanvpks =		"Ricerca i file Vpk",
+scanvpks =		"Scansione dei contenuti (VPK/ISO/CSO)",
 export =		"Esporta",
-themes =		"Temi AppMan",
+themes =		"Temi AppManager+",
 pluginsman =	"Plugins Man",
-cthemesman =	"Temi personalizzati",
+cthemesman =	"Temi personalizzati LiveArea ",
 ftp =			"FTP",
+restarthb =		"Riavvia AppMan",
+reset =			"Reset alimentazione",
+off =			"Spegnimento",
 
 items =			"Seleziona Elementi: ",
 
-------------	Ftp 		-----------------------------------------------
-ftp =			"Inserire l'indirizzo IP sul dispositivo o PC",
+------------	Ftp 		---------------------------------------------------------------------------------
+textftp =		"Inserire l'indirizzo FTP sul dispositivo o PC",
 closeftp =		"Premere START per chiudere la connessione FTP",
 loseftp =		"Connessione FTP chiusa",
-  
-  ------------	USB 		-----------------------------------------------
-connectusb =	"Connettere il dispositivo con un cavo USB ",
-usbconnection = "Connessione USB Stabilita",
+
+------------	USB 		---------------------------------------------------------------------------------
+usb =			"USB",
+connectusb =	"Connettere il dispositivo con un cavo USB",
+usbconnection = "Connessione USB Abilitata",
 cancelusb =		"Disabilitato",
 
 imgerror =		"Errore!! Immagine non supportata",
@@ -53,41 +57,45 @@ tags =			"xx:xx:xx",
 sounderror =	"Errore!! Suono non valido",
 
 --AppManager
-apptittle =		"Amministrazione Apps (Apps - Bolle)",
-switch =		"Sei sicuro di voler spostare ",
-nomemory =		"Memoria insufficiente ......",
+apptittle =		"Game Manager (Apps - Bolle)",
+switch =		"Sei sicuro di voler spostare",
+nomemory =		"Memoria insufficiente...",
 appremove =		"Sei sicuro di voler disinstallare ",
-delclon	=		"Cancella questo CLONE ",
-updatedb =		"La PSVita sarà riavviata...\solo il database verrà aggiornato",
+delclon	=		"Cancella questo CLONE: ",
 manual =		"Vuoi realmente eliminarlo Manualmente",
-notmanual =		"Eliminazione effettuata manualmente",
-notfindmanual =	"Manuale non trovato",
-removemanual =	"Eliminazione Manuale",
+notmanual =		"Eliminazione effettuata manualmente!",
+notfindmanual =	"Il Manuale non esiste",
+removemanual =	"Rimuovi manuale",
 pressremove =	"Disinstalla",
-pressswitch =	"Sposta (ux0<->ur0)",
+switchapp =		"Scambia Apps",
 empty =			"Vuoto/Errore",
-toexplorer =	"File explorer",
+toexplorer =	"File Explorer",
+partitions =	"Partizioni",
 
 --SearchingVpks
-vpktittle =		"Installare i Vpk ",
+vpktittle =		"Ricerca Vpks ",
 wait =			"Attendere prego...",
 nofinds =		"Nessun file trovato",
-reloadfull =	"Scansione completa di ux0:/ur0:",
+reloadfull =	"Scansione completa di ux0/ur0/uma0",
 moveiso2ux0 =	"Gioco sposato su ux0:pspemu/ISO",
-moveiso2ur0 =	"Gioco spostato su ur0:pspemu/ISO",
+moveiso2ur0 =	"Gioco sposato su ur0:pspemu/ISO",
+moveiso2uma0 =	"Gioco sposato su uma0:pspemu/ISO",
 
--------------		Callbacks		---------------------------------------------------------------------
-unsafe =		"Insicuro: ",
+-------------		Callbacks		-------------------------------------------------------------------------
+unsafe =		"Non sicuro: ",
 file =			"File: ",
 percent =		"Percentuale: ",
 percent_total = "Percentuale Totale: ",
-total_size =	"Spazio Totale: ",
-total_written = "Scrittura Totale: ",
+total_size =	"Dimensione totale: ",
+total_written = "Totale Scritto: ",
+speed =			"Velocità: ",
+remaining =		"Tempo rimanente: ",
+
 --onAppInstall
-searchunsafe =	"Cerca i file VPK non sicuri o pericolosi!",
-unsafevpk =		"Permessi estesi e accesso a informazioni personali richieste! \nIl file VPK non è da una fonte attendibile! \nInstallare a proprio rischio?",
-dangerousvpk =	"Pericolo!!! Alto rischio di danneggiare la tua console \nse installi questo VPK! \nIl file VPK non è da una fonte attendibile! \nInstallare a proprio rischio?",
-vpkunpack =		"Spacchettamento del file vpk in corso...",
+searchunsafe =	"Cerca nei file vpk, non sicuri o pericolosi!",
+unsafevpk =		"Permessi estesi e accesso a informazioni personali richieste! \n\nUtilizzare con cautela, i pacchetti sono da sorgenti non attendibili! \n\nVuoi installare a proprio rischio?",
+dangerousvpk =	"Attenzione!!! Elevato rischio di brick del dispositivo se questo VPK è installato! \n\nUtilizzare con cautela, i pacchetti sono da sorgenti non attendibili! \n\nVuoi installare a proprio rischio?",
+vpkunpack =		"Scompattamento vpk in corso...",
 install =		"Installazione in corso...",
 
 --onExtractFiles
@@ -95,58 +103,67 @@ extraction =	"Estrazione in corso...",
 
 --onScanningFiles
 scanning =		"Scansione in corso...",
-size_unpk =		"Dimensione di spacchettamento : ",
------------------------------------------------------------------------------------------------------------
+size_unpk =		"Dimensione del file scompattato: ",
+-------------------------------------------------------------------------------------------------------------
 
 --Launch PBP or VPK
-launchpbp =		"Avviare il gioco/app ",
-confirm =		"X: Accettare  |  O: Cancellare",
-warningvpk =	"\nPERICOLOSO ACCESSO TOTALE\nVPK INSICURO",
-warningvpk2 =	"PERICOLOSO ACCESO TOTALE",
+launchpbp =		"Avvia gioco/app ",
+confirm =		"Accetta",
+warningvpk =	"\nPERICOLO ACCESSO TOTALE\nVPK NON SICURO",
+warningvpk2 =	"PERICOLO ACCESSO TOTALE",
 safevpk =		"VPK SICURO",
-total_sizevpk = "Spazio Totale del file VPK: ",
-installvpk =	"INSTALLARE VPK",
-installgame =	"INSTALLARE APP",
+total_sizevpk = "Dimensione totale VPK: ",
+installvpk =	"INSTALLA VPK",
+installgame =	"INSTALLA APP",
 alertunsafe =	"VPK NON SICURO!!!!",
 alertdang =		"VPK PERICOLOSO!!!!",
-installvpkdir =	"INSTALLARE IL FILE VPK IN UNA DIRECTORY",
-launchbin =		"Lanciare l' App ",
+installvpkdir =	"INSTALLA VPK DA DIRECTORY",
+launchbin =		"Avvia app ",
 
-------------	Switch Apps/vpks	------------------------------------------------------------------------
+------------	Switch Apps/vpks	-------------------------------------------------------------------------
 required =		"\nRichiesto: ",
-searchapp =		"\nDesideri cercare un app per spostarlo su ur0 ?",
-vpktour0 =		"Desideri spostare il file vpk su ur0: per poterlo installare",
+searchapp =		"\nDesideri spostare un app per su ur0 ?",
+vpktour0 =		"Desideri spostare il file vpk su ur0: per poterlo installare ?",
 vpktoux0 =		"Desideri spostare il file vpk su ux0: ?",
-stillnomemory =	"Anche spostandolo non cambia l'installazione",
-vpkinuro =		"VPK già in UR0 ... \nProva a liberare più spazio ......",
-apptour0 =		"Passa a ur0:",
-ur0toapp =		"Cambiare App su ux0: ?",
+stillnomemory =	"Non c'è spazio sufficiente anche se viene spostato",
+vpkinuro =		"Il file vpk è già su ur0:...\nProva a liberare un po' di spazio...",
+apptour0 =		"Passa su ur0:",
+ur0toapp =		"Passare l' app su ux0: ?",
 tittle =		"Titolo: ",
-errorapp =		"Errore!! Non è possibile spostare le applicazioni...",
-errorinstall =	"C'è stato un errore nell'installazione",
+errorapp =		"Errore...l'app non puo' essere spostata...",
+errorinstall =	"Si è verificato un errore durante l'installazione",
 
 ------------	ThemesAppmanager	-------------------------------------------------------------------------
 themesappman =	"Temi per AppManager PLUS",
-themesdone =	"Installazione Effettuata!",
-reload =		"Ricaricare il Tema Originale",
-settinsthemes =	"Andare sulle impostazioni del Tema ?",
+themesdone =	"Installazione Completata!",
+reload =		"Ricarica il Tema Originale",
+settinsthemes =	"Andare su Impostazioni Tema ?",
 
 ------------	PluginsManager		-------------------------------------------------------------------------
 plugsmanager =	"Plugins Manager",
 reloadconfig =	"TaiHen Config",
-configtxt =		"TaiHen Config Ricaricato",
-disablesuprx =	"Disattivare il plugin ?",
+configtxt =		"Ricaricare taiHEN ConfigTxt",
+disablesuprx =	"Disabilitare il plugin ?",
 
-------------	CustomThemesLivearea		-----------------------------------------------------------------
-customthemes =	"Temi Personalizzati del LiveArea",
-notthemes =		"Nessun tema / Errore nella lista dei temi!",
-deltheme =		"Disinstallare il Tema Personalizzato da app.db",
-delfilestheme =	"Eliminare il file del Tema Personalizzato ?",
+------------	ThemesLivearea		-------------------------------------------------------------------------
+customthemes =	"CustomThemes LiveArea",
+notthemes =		"Vuoto/Errore nell'elenco dei temi!",
+deltheme =		"Disinstalla CustomTheme da app.db",
+delfilestheme =	"Cancellare i file da CustomTheme ?",
+
+------------	Advanced	---------------------------------------------------------------------------------
+advanced =		"Avanzato",
+refreshdb =		"Aggiorna app.db",
+rebuilddb =		"Ricostruisci app.db",
+restartupdb =	"La tua PSVita sarà riavviata...\ny Il database verrà aggiornato",
+restartredb =	"La tua PSVita sarà riavviata...\nY Il database verrà ricostruito",
+restart =		"La tua PSVita sarà riavviata...",
+shutdown =		"La tua PSVita sarà spenta...",
 
 result =		"\nRisultato: ",
-count =			"Totale: ",
+count =			"Conteggio: ",
 sizeis =		"La dimensione è: ",
-openmusic =		"Aprire l' App Mp3/Galleria ?",
-filesfolders =	"Cartelle/File",
+opensettings =	"Aprire Mp3 Player/Gallery/Video ?",
+filesfolders =	"File/Cartelle",
 
 }
