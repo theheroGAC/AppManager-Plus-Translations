@@ -149,4 +149,19 @@ sizeis =		"La dimensione è: ",
 openmusic =		"Aprire l' App Mp3/Galleria ?",
 filesfolders =	"Cartelle/File",
 
+------------	Advanced	---------------------------------------------------------------------------------
+advanced =		"Avanzato",
+refreshdb =		"Aggiornamento app.db",
+rebuilddb =		"Ricostruire app.db",
+restartupdb =	"La tua PSVita sarà riavviata...\ny Il database verrà aggiornato",
+restartredb =	"La tua PSVita sarà riavviata...\nY Il database verrà ricostruito",
+restart =		"La tua PSVita sarà riavviata...",
+shutdown =		"La tua PSVita sarà spenta...",
+
+result =		"\nRisultato: ",
+count =			"Totale: ",
+sizeis =		"Il formato è: ",
+opensettings =	"Aprire App Mp3/Galeria/Video ?",
+filesfolders =	"Cartelle/Archivio",
+
 }
